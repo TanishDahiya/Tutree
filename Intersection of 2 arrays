@@ -14,7 +14,7 @@ void Intersection(int arr[], int brr[], int n,int m)
             cout << brr[i] << " ";
 }
  
-// Driver Program
+
 int main()
 {
    /* int arr1[] = { 7, 1, 5, 2, 3, 6 };
