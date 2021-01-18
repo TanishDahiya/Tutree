@@ -17,10 +17,6 @@ void Intersection(int arr[], int brr[], int n,int m)
 
 int main()
 {
-   /* int arr1[] = { 7, 1, 5, 2, 3, 6 };
-    int arr2[] = { 3, 8, 6, 20, 7 };
-    int n1 = sizeof(arr1) / sizeof(arr1[0]);
-    int n2 = sizeof(arr2) / sizeof(arr2[0]);*/
     int n;
     int m;
     cin>>n;
