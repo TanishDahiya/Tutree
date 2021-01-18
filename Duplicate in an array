@@ -3,12 +3,13 @@ using namespace std;
  
 int main()
 {
- 
-    int arr[] = { 0, 4, 3, 2, 7, 8, 2, 3, 1 };
-    int n = sizeof(arr) / sizeof(arr[0]);
-   
-   
-    // count the frequency
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int input=0;input<n;input++){
+        cin>>arr[input];
+    }
+
     for (int i = 0; i <n; i++) {
         arr[arr[i] %n]
             = arr[arr[i] % n] + n;
